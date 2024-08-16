@@ -1,0 +1,119 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    margin-bottom: 50px;
+}
+
+.main-div {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+span {
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.resetBtn {
+    background-color: #dc3545;
+}
+
+.resetBtn:hover {
+    background-color: #c82333;
+}
+
+.startBtn {
+    background-color: #28a745;
+}
+
+.startBtn:hover {
+    background-color: #218838;
+}
+
+.stopBtn {
+    background-color: #ffc107;
+}
+
+.stopBtn:hover {
+    background-color: #e0a800;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .main-div {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    span {
+        font-size: 1.2em;
+    }
+
+    button {
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-div {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    span {
+        font-size: 1em;
+    }
+
+    button {
+        font-size: 0.8em;
+        padding: 6px 12px;
+    }
+}
