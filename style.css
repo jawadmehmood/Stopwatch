@@ -1,7 +1,7 @@
 /* Base styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #092032;
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,15 +9,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #bac0c1;
 }
 
 .main{
     margin-bottom: 50px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .main-div {
     text-align: center;
-    background-color: #fff;
+    background-color: #344756;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -80,7 +84,7 @@ button:hover {
 /* Media queries */
 @media (max-width: 768px) {
     .main-div {
-        width: 90%;
+        width: 50%;
         padding: 15px;
     }
 
@@ -100,7 +104,7 @@ button:hover {
 
 @media (max-width: 480px) {
     .main-div {
-        width: 95%;
+        width: 80%;
         padding: 10px;
     }
 
